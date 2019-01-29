@@ -39,7 +39,7 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
   defp deps do
     [
       {:commanded, git: "https://github.com/ThisisGurwinder/commanded.git"},
-      {:eventstore, "~> 0.16"},
+      {:eventstore, git: "https://github.com/ThisisGurwinder/eventstore.git"},
 
       # Optional dependencies
       {:jason, "~> 1.1", optional: true},
