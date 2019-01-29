@@ -38,7 +38,7 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
 
   defp deps do
     [
-      {:commanded, "~> 0.18", runtime: Mix.env() == :test},
+      {:commanded, git: "https://github.com/ThisisGurwinder/commanded.git"},
       {:eventstore, "~> 0.16"},
 
       # Optional dependencies
